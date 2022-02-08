@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Noto Sans Lao', sans-serif;
+    
+}
+/*============================================================header section starts========================================================*/
+
+header{
+    height: auto;
+    background-color: #f7b947;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20fr 80fr;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.main-nav{
+    list-style: none;
+    width: 80%;
+    margin: 5px;
+    padding: 5px 0px;
+    transition-duration: 0.3s;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #f7F7F7;
+    font-size: 18px;
+}
+ul li a:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+.logo img{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 25%;
+    border-radius: 50%;
+    margin-left: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.logo img:hover{
+    filter: brightness(80%);
+}
+
+.btn-login{
+    list-style: none;
+    border: 1px solid #f7f7f7;
+    border-radius: 50px;
+    padding: 4px;
+    width: 60%;
+    background-color: #fa8128;
+    font-family: 'Noto Sans Lao', sans-serif;
+
+}
+.btn-login:hover{
+    background-color: #f7b947;
+}
+.btn-login a{
+   text-decoration: none;
+   color: #f7f7f7;
+   font-size: 18px;
+}
+.btn-login a:hover{
+    color: rgba(0, 0, 0, 0.3);
+    transition-duration: 0.5s;
+}
+
+/*========================================================================header section ends=============================================================*/
+
+/*=================================================================Section1 Home Background starts========================================================*/
+.section1{
+    background: linear-gradient(
+        rgba(0,0,0, 0.3),
+        rgba(0,0,0, 0.3)
+    ), url(../Images/Homepage1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 720px;
+    margin-top: 20px;
+    object-fit: cover;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.section1:hover{
+    transform: scale(1.02,1.02);
+    transition-duration: 0.3s;
+}
+.content{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    padding-top: 250px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.content:hover{
+    transform: scale(1.02,1.02);
+    transition-duration: 0.3s;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: auto;
+    width: auto;
+}
+span{
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 7px 12px;
+    border-radius: 50px 0px 0px 50px;
+    
+}
+input{
+    font-family: 'Noto Sans Lao', sans-serif;
+    background-color: #fff;
+    border: 0.1px solid #000;
+    width: 25%;
+}
+.btn-search{
+    padding: 0px 20px;
+    background-color: #f7b947;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 0px 50px 50px 0px;
+}
+.btn-search i{
+    color: #fff;
+    font-size: 18px;
+}
+
+/*==================================================================Section1 Home Background ends========================================================*/
+/*=================================================================Section2  Article home starts=========================================================*/
+
+.section2{
+    margin: 50px 0px;
+}
+            /*Lao food starts*/
+#img-1{
+   display: flex;
+   align-items: center;
+   border-radius: 50px 0px 0px 50px;
+   margin: auto auto auto 10px;
+   height: auto;
+}
+.img-box-1{
+   border: 5px solid #fa8128;
+   background-image: url(../Images/Homepage2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 300px;
+   width: 40%;
+   margin-left: auto auto auto 10px;
+}
+.img-box-1:hover{
+    filter: brightness(80%);
+    transform: scale(1.03,1.03);
+    transition-duration: 0.3s;
+}
+.content1{
+    border: 1px solid #f7f7f7;
+    padding: 10px 20px;
+    margin: 0px 30px;
+    width: 100%;
+    color: #000;
+    font-size: 18px;
+ 
+}
+.content1:hover{
+    background-color: #f7b947;
+    transition-duration: 0.5s;
+    
+}
+             /*Lao food ends*/
+             /*Ingredient starts*/
+#img-2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-radius: 0px 50px 50px 0px;
+    margin: auto 10px auto auto;
+    height: auto;
+ }
+ .img-box-2{
+    border: 5px solid #fa8128;
+    background-image: url(../Images/Homepage3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 30%;
+    margin: auto auto auto auto;
+ }
+ .img-box-2:hover{
+     filter: brightness(80%);
+     transform: scale(1.03,1.03);
+     transition-duration: 0.3s;
+ }
+ .content2{
+     border: 1px solid #f7f7f7;
+     padding: 10px 20px;
+     margin: 0px 30px;
+     width: auto;
+     color: #000;
+     font-size: 18px;
+ }
+ .content2:hover{
+     background-color: #f7b947;
+     transition-duration: 0.3s;
+ }
+
+             /*Ingredient ends*/
+
+/*=========================================================================Section2  Article home ends*=======================================================/
+/*=========================================================================Footer Starts=====================================================================*/
+footer{
+    background-color: #f7b947;
+    width: auto;
+    height: auto;
+}
+             /*Contact-icon starts*/
+#contact-icon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+#contact-icon i{
+    background-color: #fa8128;
+    padding: 12px;
+    font-size: 15px;
+    color: #f7f7f7;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#contact-icon i:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    transition-duration: 0.3s;
+}
+#contact-icon p:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+             /*Contact-icon ends*/
+             /*Social-icon starts*/
+#social-icon{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#social-icon i{
+    color: #f7f7f7;
+    font-size: 40px;
+    margin: 0px 25px;
+}
+#social-icon i:hover{
+    color: #fa8128;
+    transform: scale(1.2,1.2);
+    transition-duration: 0.2s;
+}
+
+             /*Social-icon ends*/
+             /*Copyright2022 starts*/
+#copyright{
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+}
+             /*Copyright2022 starts*/
+
+
+/*=========================================================================Footer Starts=====================================================================*/
+             

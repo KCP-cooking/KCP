@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Noto Sans Lao', sans-serif;
+    
+}
+/*============================================================header section starts========================================================*/
+
+
+header{
+    height: auto;
+    background-color: #f7b947;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20fr 80fr;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.main-nav{
+    list-style: none;
+    width: 80%;
+    margin: 5px;
+    padding: 5px 0px;
+    transition-duration: 0.3s;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #f7F7F7;
+    font-size: 18px;
+}
+ul li a:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+.logo img{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 25%;
+    border-radius: 50%;
+    margin-left: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.logo img:hover{
+    filter: brightness(80%);
+}
+
+.btn-login{
+    list-style: none;
+    border: 1px solid #f7f7f7;
+    border-radius: 50px;
+    padding: 4px;
+    width: 60%;
+    background-color: #fa8128;
+    font-family: 'Noto Sans Lao', sans-serif;
+
+}
+.btn-login:hover{
+    background-color: #f7b947;
+}
+.btn-login a{
+   text-decoration: none;
+   color: #f7f7f7;
+   font-size: 18px;
+}
+.btn-login a:hover{
+    color: rgba(0, 0, 0, 0.3);
+    transition-duration: 0.5s;
+}
+
+
+/*========================================================================header section ends=============================================================*/
+/*========================================================================About starts=============================================================*/
+           
+/*========================================================================About ends=============================================================*/
+.about-title{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+
+}
+.about-title h3{
+    background-color: #f7b947;
+    padding: 5px 0px;
+}
+.about-title p{
+     font-size: 20px;
+     margin-top: 10px;
+}
+.about-box{
+    margin: 30px 200px 200px 200px;
+
+}
+.grid-pic{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.our-pic{
+    background-color: #fa8128;
+    padding: 10px ;
+    margin: 0px 10px;
+    text-align: center;
+    color: #F7F7F7;
+    transition-duration: 0.3s;
+}
+.our-pic:hover{
+    transform: scale(1.1,1.1);
+    background-color: #f7b947;
+}
+.our-pic img{
+    height: auto;
+    width: 100%;
+}
+.our-pic h4{
+    margin-top: 20px;
+}
+#our-social{
+    font-size: 30px;
+    margin-top: 10px;
+}
+#our-social i{
+    margin: 0px 10px;
+    transition-duration: 0.2s;
+}
+#our-social i:hover{
+    transform: scale(1.2,1.2);
+}
+/*=========================================================================Footer Starts=====================================================================*/
+footer{
+    background-color: #f7b947;
+    width: 100%;
+    height: auto;
+}
+             /*Contact-icon starts*/
+#contact-icon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+#contact-icon i{
+    background-color: #fa8128;
+    padding: 12px;
+    font-size: 15px;
+    color: #f7f7f7;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#contact-icon i:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    transition-duration: 0.3s;
+}
+#contact-icon p:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+             /*Contact-icon ends*/
+             /*Social-icon starts*/
+#social-icon{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#social-icon i{
+    color: #f7f7f7;
+    font-size: 40px;
+    margin: 0px 25px;
+}
+#social-icon i:hover{
+    color: #fa8128;
+    transform: scale(1.2,1.2);
+    transition-duration: 0.2s;
+}
+
+             /*Social-icon ends*/
+             /*Copyright2022 starts*/
+#copyright{
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+}
+             /*Copyright2022 starts*/
+
+
+/*=========================================================================Footer Starts=====================================================================*/
+             
