@@ -233,8 +233,7 @@ input{
 /*=========================================================================Footer Starts=====================================================================*/
 footer{
     background-color: #f7b947;
-    width: auto;
-    height: auto;
+    width: 100%;
 }
              /*Contact-icon starts*/
 #contact-icon{
