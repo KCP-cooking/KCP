@@ -265,7 +265,7 @@ input{
     }
     .search-box{
         margin-top: 10px;
-        height: 4vh;
+        height: auto;
     }
     span{
         display: none;
