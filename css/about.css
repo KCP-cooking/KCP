@@ -223,6 +223,7 @@ ul li a:hover{
 #our-social i{
     margin: 0px 3%;
     transition-duration: 0.2s;
+    color: #000;
 }
 #our-social i:hover{
     transform: scale(1.2,1.2);
